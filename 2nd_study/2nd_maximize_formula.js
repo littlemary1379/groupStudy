@@ -86,4 +86,6 @@ function calculation(formulas, expression, primaryExpression) {
 }
 
 
-maximize("100-200*300-500+20");
+//maximize("100-200*300-500+20");
+//console.log(maximize("200-300-500-600*40+500+500"));
+console.log(maximize("2-990-5+2"));
