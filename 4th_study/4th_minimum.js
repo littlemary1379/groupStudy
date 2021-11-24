@@ -33,5 +33,13 @@ function minimum(A, B) {
     return result;
 }
 
+// 시간 초과 안 나는 로직(https://programmers.co.kr/questions/5173)
+// function solution(A,B){
+//     var answer = 0;
+//     A.sort((a, b) => a - b);
+//     B.sort((a, b) => b - a);
+//     return A.reduce((a, c, i) => a+(c*B[i]), 0);
+// }
+
 minimum([1, 4, 2], [5, 4, 4]);
 minimum([1, 2], [3, 4]);
